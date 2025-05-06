@@ -11,7 +11,7 @@ const router = createBrowserRouter(
   [
     { path: "/", element: <HomePage /> },
     { path: "/update", element: <UpdatePage /> },
-    /*     { path: "/edit/:userId", element: <EditPage /> }, */
+    { path: "/edit/:userId", element: <EditPage /> },
   ],
   { basename: "" } // This is where you set the base path
 );

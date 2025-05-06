@@ -13,6 +13,20 @@ const Navbar = () => {
       >
         <img src={logo} alt="logo" />
       </div>
+      <div className="flex space-x-4">
+        <button
+          onClick={() => navigate("/")}
+          className="hover:text-greenz cursor-pointer transition-colors duration-200"
+        >
+          Home
+        </button>
+        <button
+          onClick={() => navigate("/update")}
+          className="hover:text-greenz cursor-pointer transition-colors duration-200"
+        >
+          Update
+        </button>
+      </div>
     </nav>
   );
 };
