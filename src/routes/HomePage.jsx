@@ -12,7 +12,7 @@ const HomePage = () => {
 
   return (
     <div className="w-full">
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="bg-gradient-to-br from-50% from-peachz to-greenz text-white min-h-screen flex items-center justify-center">
         <div className="w-full max-w-md">
           <UserForm onUserAdded={handleUserAdded} />
