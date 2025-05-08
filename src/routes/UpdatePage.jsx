@@ -23,7 +23,7 @@ const UpdatePage = () => {
 
   return (
     <div className="w-full">
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="bg-gradient-to-br from-50% from-peachz to-greenz text-white min-h-screen flex items-center justify-center">
         <div className="w-full max-w-md">
           <div className="bg-white shadow-md rounded-2xl px-8 pt-6 pb-8 m-6">
