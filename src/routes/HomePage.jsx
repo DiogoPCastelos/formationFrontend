@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Navbar } from "../components";
-import UserForm from "../components/UserForm";
-import UserList from "../components/UserList";
+import { Navbar, UserForm, UserList } from "../components";
 
 const HomePage = () => {
   const [userAdded, setUserAdded] = useState(null);
